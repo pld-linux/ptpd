@@ -17,7 +17,6 @@ BuildRequires:	libtool
 BuildRequires:	net-snmp-devel
 BuildRequires:	openssl-devel
 BuildRequires:	rpmbuild(macros) >= 1.647
-BuildRequires:	systemd-devel
 BuildRequires:	zlib-devel
 Requires(post,preun,postun):	systemd-units >= 38
 Requires:	systemd-units >= 0.38
